@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: rgb(15, 164, 115);
+  height: 150px;
+  text-align: center;
+  padding: 50px;
+}
+
+.frase_multas {
+  border: solid, rgb(1, 41, 32), 3px;
+  margin: 15px;
+}
+
+#form {
+  margin: 15px;
+}
+
+#res {
+  background-color: rgb(54, 189, 79);
+  margin: 15px;
+  border: solid, rgb(66, 146, 66), 2px;
+  gap: 2px;
+  padding: 3px;
+}/*# sourceMappingURL=ex010.css.map */
