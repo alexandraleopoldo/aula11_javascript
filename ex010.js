@@ -1,9 +1,3 @@
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    calcular();
-  }
-});
-
 function calcular() {
   let txtv = window.document.querySelector("input#txtvel");
   let res = window.document.querySelector("div#res");
@@ -19,5 +13,11 @@ function calcular() {
     res.innerHTML += `<p>Você está parado!</p>`;
   }
   res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`;
+
+  mostraBarra();
 }
 
+function mostraBarra() {
+  let barra = document.getElementById("res");
+  barra.style.display = "block";
+}

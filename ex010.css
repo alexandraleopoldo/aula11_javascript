@@ -21,9 +21,10 @@ h1 {
 }
 
 #res {
-  background-color: rgb(54, 189, 79);
+  background-color: rgb(45, 149, 131);
   margin: 15px;
   border: solid, rgb(66, 146, 66), 2px;
   gap: 2px;
   padding: 3px;
+  display: none;
 }/*# sourceMappingURL=ex010.css.map */
